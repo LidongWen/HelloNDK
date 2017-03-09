@@ -1,7 +1,7 @@
 #include <jni.h>
 #include <string>
+#include "com_wenld_hellondk_MainActivity.h"
 
-extern "C"
 jstring
 Java_com_wenld_hellondk_MainActivity_stringFromJNI(
         JNIEnv* env,
